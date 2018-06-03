@@ -1,0 +1,7 @@
+PS C:\Users\Lbenatar\Documents\Collage\Software Engineering\Ex4> .\node_modules\.bin\browserify.cmd .\test\*.js > .\lib\bundle.js
+Error: Cannot find module 'C:\Users\Lbenatar\Documents\Collage\Software Engineering\Ex4\test\*.js' from 'C:\Users\Lbenatar\Documents\Collage\Software Engineering\Ex4'
+    at C:\Users\Lbenatar\Documents\Collage\Software Engineering\Ex4\node_modules\browser-resolve\node_modules\resolve\lib\async.js:55:21
+    at load (C:\Users\Lbenatar\Documents\Collage\Software Engineering\Ex4\node_modules\browser-resolve\node_modules\resolve\lib\async.js:69:43)
+    at onex (C:\Users\Lbenatar\Documents\Collage\Software Engineering\Ex4\node_modules\browser-resolve\node_modules\resolve\lib\async.js:92:31)
+    at C:\Users\Lbenatar\Documents\Collage\Software Engineering\Ex4\node_modules\browser-resolve\node_modules\resolve\lib\async.js:22:47
+    at FSReqWrap.oncomplete (fs.js:152:21)
